@@ -60,3 +60,14 @@ This is a local learning lab, not an AWS deployment.
 The server listens only on the local machine.
 The monitor performs one check each time it is run.
 
+## Continuous monitoring
+
+With the web server running, start monitoring in another terminal:
+
+```bash
+bash watch.sh
+```
+
+The script runs monitor.py repeatedly, waiting 10 seconds between checks.
+Results are saved in monitor.log. Press Ctrl+C to stop monitoring.
+
